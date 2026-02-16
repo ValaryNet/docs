@@ -88,10 +88,19 @@
             "dropdown": "Roblox",
             "products": [
               {
-                "product": "Potassium"
+                "product": "Potassium",
+                "pages": [
+                  "untitled-page"
+                ]
               },
               {
                 "product": "Serotonin"
+              },
+              {
+                "product": "Wave",
+                "pages": [
+                  "wave"
+                ]
               }
             ]
           },

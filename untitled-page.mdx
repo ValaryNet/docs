@@ -1,0 +1,44 @@
+---
+title: "Potassium Setup Guide"
+---
+
+1. Download Windows 11 24H2 or 25H2 (**OTHERWISE WE WILL NOT HELP YOU**): https://www.microsoft.com/en-us/software-download/windows11
+2. ​Download Visual Studio redistributables installed: https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
+3. ​Join potassium's discord server
+4. ​Message the potassium bot (psm#4201) "/register", choose a username and password. **Save your login information!**
+5. ​Now send "/download" and it will send you a link to download the executor
+
+​
+
+​
+
+## Common Fixes:
+
+### Channel build mismatch
+
+-\> Go to https://rdd.weao.gg/ and press "Download Latest Version", use the Roblox that gets downloaded. If https://discord.com/channels/1289988589052104846/1344419248113455124 is red then downgrade to the latest version that potassium supports.
+
+### Driver Errors
+
+Press Win + R, type regedit, and press Enter. Navigate to: HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\CI\\Config. Find a DWORD (32-bit) value named VulnerableDriverBlocklistEnable. Right click it and press "Modify" and set the data value to "0" Restart your PC.
+
+try 1 and 4 https://www.ninjaone.com/blog/enable-or-disable-microsoft-vulnerable-driver-blocklist/
+
+### Could not find a part of the path
+
+-\> Extract the Potassium zip and make sure to run the executable from file explorer (**SHORTCUTS OR OPENING FROM THE START MENU WILL NOT WORK**)
+
+### Mismatched HWID (**IN ROBLOX**)
+
+-\> This is related to the script you are using, reset your HWID in the script (**WE ARE NOT SCRIPT SUPPORT, IF YOU OPEN A TICKET REGARDING THIS, WE WILL TICKET BAN YOU**)
+
+### Mismatched HWID (**IN POTASSIUM**)
+
+-\> Message the bot "/reset_hwid" and it will reset your HWID (**WE ARE NOT BYPASSING COOLDOWNS, IF YOU OPEN A TICKET REGARDING THIS, WE WILL TICKET BAN YOU**)
+
+### Injection not working
+
+1. ​Disable Windows Defender and add the Potassium folder to the exclusions
+2. ​Reinstall Roblox
+3. ​Clear %temp%
+4. ​Clear cache
