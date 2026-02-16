@@ -82,39 +82,14 @@
         ]
       },
       {
-        "tab": "Cheat Guides",
-        "dropdowns": [
+        "tab": "Untitled Tab",
+        "groups": [
           {
-            "dropdown": "Roblox",
-            "products": [
-              {
-                "product": "Potassium",
-                "pages": [
-                  "potassium"
-                ]
-              },
-              {
-                "product": "Serotonin"
-              },
-              {
-                "product": "Wave",
-                "pages": [
-                  "wave"
-                ]
-              }
+            "group": "Roblox",
+            "pages": [
+              "potassium",
+              "wave"
             ]
-          },
-          {
-            "dropdown": "CS2"
-          },
-          {
-            "dropdown": "Rust"
-          },
-          {
-            "dropdown": "FiveM"
-          },
-          {
-            "dropdown": "z"
           }
         ]
       }
